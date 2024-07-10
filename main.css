@@ -31,16 +31,15 @@ body{
 }
 
 .competences ul li {
-    content: ""; /* Tiret comme puce */
-    color: #000; /* Couleur du tiret */
-	padding-left: 20;
-	padding-right: 100;
+    color: #0a0707; /* Couleur du tiret */
+	text-align: justify;
+	font-size: small;
+	
 }
 .competences ul li::before {
     content: "•  "; /* Tiret comme puce */
     font-weight: bold;
 	font-size: large;
-    left: 100; /* Aligne le tiret à gauche */
     color: #000; /* Couleur du tiret */
 
 }
