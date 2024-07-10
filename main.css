@@ -63,3 +63,11 @@ body{
 }
 
 
+.custom-container {
+    background-color: #f8f9fa; /* Couleur de fond */
+    border: 1px solid #dee2e6; /* Bordure */
+    padding: 20px; /* Padding */
+    margin-top: 20px; /* Marge en haut */
+    border-radius: 5px; /* Bordure arrondie */
+	border-color: white;
+}
